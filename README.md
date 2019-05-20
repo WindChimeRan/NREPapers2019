@@ -4,7 +4,7 @@ This repo covers almost all the papers (35) related to **Neural Relation Extract
 
 Use tags to search papers you like.
 
-**tags: DSRE | PGM | Combining Direct Supervision | ...**
+**tags: DSRE | PGM | Combining Direct Supervision | GNN | ...**
 
 ## NAACL 2019
 
@@ -27,3 +27,14 @@ Use tags to search papers you like.
    Combining Direct Supervision | DSRE
 
    > This paper combines direct supervision and distant supervision. It innovatively uses direct supervision for training sigmoid attention in a multi-task way. Further, when applying to the CNN backbone with different filter sizes, adding entity embedding as additional inputs is a useful trick, which performs comparable to RESIDE and better than PCNN-ATT. After combining the supervised sigmoid attention, this paper become a new sota.   
+
+## ACL 2019
+
+1. **Graph Neural Networks with Generated Parameters for Relation**
+    _Hao Zhu and Yankai Lin and Zhiyuan Liu, Jie Fu, Tat-seng Chua, Maosong Sun_
+    ACL 2019
+    [paper](https://arxiv.org/pdf/1902.00756.pdf)
+
+    GNN | new task
+
+    > 
