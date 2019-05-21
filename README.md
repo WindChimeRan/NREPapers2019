@@ -37,4 +37,4 @@ Use tags to search papers you like.
 
     GNN | new task
 
-    > 
+    > This paper considers multi-hop relation extraction, which constructs a fully-connected graph for all entities in a sentence. Experiments show that modeling entity-relation as a graph signifcantly improves the performance. 
