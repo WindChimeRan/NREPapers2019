@@ -4,7 +4,7 @@ This repo covers almost all the papers (35) related to **Neural Relation Extract
 
 Use tags to search papers you like.
 
-**tags: DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | ...**
+**tags: | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT |... |**
 
 ## NAACL 2019
 
@@ -66,3 +66,25 @@ the well developed machine reading comprehension
     as opposed to the single-step dependency
     extraction in the triplet exaction in previous
     datasets.
+
+3. **Matching the Blanks: Distributional Similarity for Relation Learning**
+   _Livio Baldini Soares, Nicholas FitzGerald, Jeffrey Ling, Tom Kwiatkowski_
+   ACL2019
+   [paper](https://arxiv.org/pdf/1906.03158.pdf)
+
+   | few shot | sota | BERT |
+
+   > In this paper we study the problem of producing
+useful relation representations directly from text.
+We describe a novel training setup, which we call
+matching the blanks, which relies solely on entity
+resolution annotations. When coupled with
+a new architecture for fine-tuning relation representations
+in BERT, our models achieves state-ofthe-
+art results on three relation extraction tasks,
+and outperforms human accuracy on few-shot relation
+matching. In addition, we show how the
+new model is particularly effective in low-resource
+regimes, and we argue that it could significantly
+reduce the amount of human effort required to create
+relation extractors.
