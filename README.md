@@ -14,7 +14,7 @@ Use tags to search papers you like.
    [paper](https://arxiv.org/pdf/1904.00118.pdf)
    [code](https://github.com/bflashcp3f/PCNN-NMAR)
 
-   PGM | DSRE
+   | PGM | DSRE |
 
    > This paper adds a PGM inference into training stage.
 
@@ -24,10 +24,30 @@ Use tags to search papers you like.
    [paper](https://arxiv.org/pdf/1810.12956.pdf)
    [code](https://github.com/allenai/comb_dist_direct_relex)
 
-   Combining Direct Supervision | DSRE
+   | Combining Direct Supervision | DSRE |
 
    > This paper combines direct supervision and distant supervision. It innovatively uses direct supervision for training sigmoid attention in a multi-task way. Further, when applying to the CNN backbone with different filter sizes, adding entity embedding as additional inputs is a useful trick, which performs comparable to RESIDE and better than PCNN-ATT. After combining the supervised sigmoid attention, this paper become a new sota.   
 
+3. **Distant Supervision Relation Extraction with Intra-Bag and Inter-Bag Attentions**
+    _Ye, Zhi-Xiu  and Ling, Zhen-Hua_
+    NAACL 2019
+    [paper](https://www.aclweb.org/anthology/N19-1288)
+    [code](https://github.com/ZhixiuYe/Intra-Bag-and-Inter-Bag-Attentions)
+
+    | DSRE |
+
+    >In this paper, we have proposed a neural network
+    with intra-bag and inter-bag attentions to cope
+    with the noisy sentence and noisy bag problems
+    in distant supervision relation extraction. First,
+    relation-aware bag representations are calculated
+    by a weighted sum of sentence embeddings where
+    the noisy sentences are expected to have smaller
+    weights. Further, an inter-bag attention module is
+    designed to deal with the noisy bag problem by
+    2818
+    calculating the bag-level attention weights dynamically
+    during model training. 
 ## ACL 2019
 
 1. **Graph Neural Networks with Generated Parameters for Relation**
@@ -35,7 +55,7 @@ Use tags to search papers you like.
     ACL 2019
     [paper](https://arxiv.org/pdf/1902.00756.pdf)
 
-    GNN | new task | new perspective 
+    | GNN | new task | new perspective 
 
     > This paper considers multi-hop relation extraction, which constructs a fully-connected graph for all entities in a sentence. Experiments show that modeling entity-relation as a graph signifcantly improves the performance. 
 2. **Entity-Relation Extraction as Multi-turn Question Answering**
@@ -51,7 +71,7 @@ the task of entity-relation extraction. We cast
 the task as a multi-turn question answering
 problem, i.e., the extraction of entities and relations
 is transformed to the task of identifying
-answer spans fromthe context. Thismulti-turn
+answer spans from the context. This multi-turn
 QA formalization comes with several key advantages:
 firstly, the question query encodes
 important information for the entity/relation
