@@ -4,7 +4,11 @@ This repo covers almost all the papers (35) related to **Neural Relation Extract
 
 Use tags to search papers you like.
 
-**tags: | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT |... |**
+**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | ... |**
+
+DSRE: distant supervised relation extraction
+
+NRC: Neural Relation Classification
 
 ## NAACL 2019
 
@@ -48,6 +52,22 @@ Use tags to search papers you like.
     2818
     calculating the bag-level attention weights dynamically
     during model training. 
+
+4. **A Richer-but-Smarter Shortest Dependency Path  with Attentive Augmentation for Relation Extraction**
+    _Duy-Cat Can, Hoang-Quynh Le, Quang-Thuy Ha, Nigel Collier_
+    NAACL 2019 [paper](https://www.aclweb.org/anthology/N19-1298) [code](https://github.com/catcd/RbSP) (code not available on 2019/06/28)
+
+    | path | NRC |
+
+    >In this paper, we have presented RbSP, a novel representation
+    of relation between two nominals in a
+    sentence that overcomes the disadvantages of traditional
+    SDP. Our RbSP is created by using multilayer
+    attention to choose relevant information to
+    augment a token in SDP from its child nodes.
+
+
+
 ## ACL 2019
 
 1. **Graph Neural Networks with Generated Parameters for Relation**
