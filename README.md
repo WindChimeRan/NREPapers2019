@@ -119,12 +119,12 @@ useful relation representations directly from text.
 We describe a novel training setup, which we call
 matching the blanks, which relies solely on entity
 resolution annotations. When coupled with
-a new architecture for fine-tuning relation representations
-in BERT, our models achieves state-ofthe-
-art results on three relation extraction tasks,
-and outperforms human accuracy on few-shot relation
-matching. In addition, we show how the
-new model is particularly effective in low-resource
-regimes, and we argue that it could significantly
-reduce the amount of human effort required to create
-relation extractors.
+a new architecture for fine-tuning relation representations in BERT, our models achieves state-of-the-art results on three relation extraction tasks, and outperforms human accuracy on few-shot relation matching. In addition, we show how the new model is particularly effective in low-resource regimes, and we argue that it could significantly reduce the amount of human effort required to create relation extractors.
+
+
+4. **Exploiting Entity BIO Tag Embeddings and Multi-task Learning for Relation Extraction with Imbalanced Data**
+   _Wei Ye1*, Bo Li*, Rui Xie, Zhonghao Sheng, Long Chen and Shikun Zhang1_ ACL2019 [paper](https://arxiv.org/pdf/1906.08931.pdf)
+
+   | NRC | imbalance |
+
+   > This paper detailed analyze the impact of imbalanced data (other relation) to the final performance. Incorporating BIO tagging to the embedding layer is an important trick!
