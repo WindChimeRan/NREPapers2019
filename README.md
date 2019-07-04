@@ -4,7 +4,7 @@ This repo covers almost all the papers (35) related to **Neural Relation Extract
 
 Use tags to search papers you like.
 
-**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | ... |**
+**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entitiesjoint extraction of relations and entities | few shot | BERT | path | imbalance | trick | ... |**
 
 DSRE: distant supervised relation extraction
 
@@ -125,6 +125,13 @@ a new architecture for fine-tuning relation representations in BERT, our models 
 4. **Exploiting Entity BIO Tag Embeddings and Multi-task Learning for Relation Extraction with Imbalanced Data**
    _Wei Ye1*, Bo Li*, Rui Xie, Zhonghao Sheng, Long Chen and Shikun Zhang1_ ACL2019 [paper](https://arxiv.org/pdf/1906.08931.pdf)
 
-   | NRC | imbalance |
+   | NRC | imbalance | trick |
 
    > This paper detailed analyze the impact of imbalanced data (other relation) to the final performance. Incorporating BIO tagging to the embedding layer is an important trick!
+
+5. **GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction**
+    _Tsu-Jui Fu, Peng-Hsuan Li and Wei-Yun Ma_ ACL2019 [paper](https://tsujuifu.github.io/pubs/acl19_graph-rel.pdf)
+
+    | joint extraction of relations and entities | sota |
+
+    > They use GCN and argue they are the new sota.
