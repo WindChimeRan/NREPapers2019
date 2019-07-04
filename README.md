@@ -1,10 +1,10 @@
 # Relation Extraction in 2019
 
-This repo covers almost all the papers (35) related to **Neural Relation Extraction** in ACL, EMNLP, COLING, NAACL, AAAI, IJCAI in 2019.
+This repo covers almost all the papers related to **Neural Relation Extraction** in ACL, EMNLP, COLING, NAACL, AAAI, IJCAI in 2019.
 
 Use tags to search papers you like.
 
-**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entitiesjoint extraction of relations and entities | few shot | BERT | path | imbalance | trick | ... |**
+**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | ... |**
 
 DSRE: distant supervised relation extraction
 
