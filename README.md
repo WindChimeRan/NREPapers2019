@@ -2,6 +2,8 @@
 
 This repo covers almost all the papers related to **Neural Relation Extraction** in ACL, EMNLP, COLING, NAACL, AAAI, IJCAI in 2019.
 
+:bulb: is the recommended papers.
+
 Use tags to search papers you like.
 
 **tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | KBE | RL | ... |**
@@ -79,7 +81,7 @@ RL: Reinforcement Learning
 
 ## ACL 2019
 
-1. **Graph Neural Networks with Generated Parameters for Relation**
+1. :bulb: **Graph Neural Networks with Generated Parameters for Relation**
     _Hao Zhu and Yankai Lin and Zhiyuan Liu, Jie Fu, Tat-seng Chua, Maosong Sun_
     ACL 2019
     [paper](https://arxiv.org/pdf/1902.00756.pdf)
@@ -87,7 +89,7 @@ RL: Reinforcement Learning
     | GNN | new task | new perspective 
 
     > This paper considers multi-hop relation extraction, which constructs a fully-connected graph for all entities in a sentence. Experiments show that modeling entity-relation as a graph signifcantly improves the performance. 
-2. **Entity-Relation Extraction as Multi-turn Question Answering**
+2. :bulb: **Entity-Relation Extraction as Multi-turn Question Answering**
    _Xiaoya Li, Fan Yin, Zijun Sun, Xiayu Li
     Arianna Yuan, Duo Chai, Mingxin Zhou and Jiwei Li_
     ACL2019
