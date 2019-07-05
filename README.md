@@ -4,11 +4,13 @@ This repo covers almost all the papers related to **Neural Relation Extraction**
 
 Use tags to search papers you like.
 
-**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | ... |**
+**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | KBE | ... |**
 
 DSRE: distant supervised relation extraction
 
 NRC: Neural Relation Classification
+
+KBE: Knowledge Base Embedding
 
 ## NAACL 2019
 
@@ -66,7 +68,12 @@ NRC: Neural Relation Classification
     attention to choose relevant information to
     augment a token in SDP from its child nodes.
 
+5. **Connecting Language and Knowledge with Heterogeneous Representations for Neural Relation Extraction**
+    _Peng Xu and Denilson Barbosa_ NAACL 2019 [paper](https://arxiv.org/abs/1903.10126) [code](https://github.com/billy-inn/HRERE)
 
+    | KBE | DSRE |
+
+    > Multi-task learning: DSRE + KBE
 
 ## ACL 2019
 
