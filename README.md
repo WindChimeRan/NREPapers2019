@@ -4,13 +4,15 @@ This repo covers almost all the papers related to **Neural Relation Extraction**
 
 Use tags to search papers you like.
 
-**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | KBE | ... |**
+**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | KBE | RL | ... |**
 
-DSRE: distant supervised relation extraction
+DSRE: Distant Supervised Relation Extraction
 
 NRC: Neural Relation Classification
 
 KBE: Knowledge Base Embedding
+
+RL: Reinforcement Learning
 
 ## NAACL 2019
 
@@ -114,7 +116,7 @@ the well developed machine reading comprehension
     extraction in the triplet exaction in previous
     datasets.
 
-3. **Matching the Blanks: Distributional Similarity for Relation Learning**
+3. :bulb: **Matching the Blanks: Distributional Similarity for Relation Learning**
    _Livio Baldini Soares, Nicholas FitzGerald, Jeffrey Ling, Tom Kwiatkowski_
    ACL2019
    [paper](https://arxiv.org/pdf/1906.03158.pdf)
@@ -142,3 +144,35 @@ a new architecture for fine-tuning relation representations in BERT, our models 
     | joint extraction of relations and entities | sota |
 
     > They use GCN and argue they are the new sota.
+
+
+## AAAI 2019
+
+1. **Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification**
+   _Tianyu Gao*, Xu Han*, Zhiyuan Liu, Maosong Sun. (* means equal contribution)_
+   AAAI2019 [paper](https://gaotianyu1350.github.io/assets/aaai2019_hatt_paper.pdf) [code](https://github.com/thunlp/HATT-Proto)
+
+   | few shot |
+
+   > instance level and feature-level attention schemes based on prototypical networks
+
+2. **A Hierarchical Framework for Relation Extraction with Reinforcement Learning**
+   _Takanobu, Ryuichi and Zhang, Tianyang and Liu, Jiexi and Huang, Minlie_
+   AAAI2019 [paper](https://arxiv.org/pdf/1811.03925.pdf) [code](https://github.com/truthless11/HRL-RE)
+
+   | joint extraction of relations and entities | RL |  
+
+   > This paper use RL based multi-pass tagging to tackle relation overlapping problem.
+
+3. **Kernelized Hashcode Representations for Biomedical Relation Extraction**
+   _Sahil Garg, Aram Galstyan, Greg Ver Steeg Irina Rish, Guillermo Cecchi, Shuyang Gao_
+   AAAI2019
+   [paper](https://arxiv.org/pdf/1711.04044.pdf)
+
+   ||
+
+
+4. **Cross-relation Cross-bag Attention for Distantly-supervised Relation Extraction**
+   __
+
+   [paper](https://arxiv.org/pdf/1812.10604.pdf)
