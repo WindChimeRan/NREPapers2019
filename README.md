@@ -2,11 +2,11 @@
 
 This repo covers almost all the papers related to **Neural Relation Extraction** in ACL, EMNLP, COLING, NAACL, AAAI, IJCAI in 2019.
 
-:bulb: is the recommended papers.
+:star: is the recommended papers.
 
 Use tags to search papers you like.
 
-**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | KBE | RL | ... |**
+**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | KBE | RL | cross bag | ... |**
 
 DSRE: Distant Supervised Relation Extraction
 
@@ -44,7 +44,7 @@ RL: Reinforcement Learning
     [paper](https://www.aclweb.org/anthology/N19-1288)
     [code](https://github.com/ZhixiuYe/Intra-Bag-and-Inter-Bag-Attentions)
 
-    | DSRE |
+    | DSRE | cross bag |
 
     >In this paper, we have proposed a neural network
     with intra-bag and inter-bag attentions to cope
@@ -81,7 +81,7 @@ RL: Reinforcement Learning
 
 ## ACL 2019
 
-1. :bulb: **Graph Neural Networks with Generated Parameters for Relation**
+1. :star: **Graph Neural Networks with Generated Parameters for Relation**
     _Hao Zhu and Yankai Lin and Zhiyuan Liu, Jie Fu, Tat-seng Chua, Maosong Sun_
     ACL 2019
     [paper](https://arxiv.org/pdf/1902.00756.pdf)
@@ -89,7 +89,7 @@ RL: Reinforcement Learning
     | GNN | new task | new perspective 
 
     > This paper considers multi-hop relation extraction, which constructs a fully-connected graph for all entities in a sentence. Experiments show that modeling entity-relation as a graph signifcantly improves the performance. 
-2. :bulb: **Entity-Relation Extraction as Multi-turn Question Answering**
+2. :star: **Entity-Relation Extraction as Multi-turn Question Answering**
    _Xiaoya Li, Fan Yin, Zijun Sun, Xiayu Li
     Arianna Yuan, Duo Chai, Mingxin Zhou and Jiwei Li_
     ACL2019
@@ -118,7 +118,7 @@ the well developed machine reading comprehension
     extraction in the triplet exaction in previous
     datasets.
 
-3. :bulb: **Matching the Blanks: Distributional Similarity for Relation Learning**
+3. :star: **Matching the Blanks: Distributional Similarity for Relation Learning**
    _Livio Baldini Soares, Nicholas FitzGerald, Jeffrey Ling, Tom Kwiatkowski_
    ACL2019
    [paper](https://arxiv.org/pdf/1906.03158.pdf)
@@ -136,7 +136,7 @@ a new architecture for fine-tuning relation representations in BERT, our models 
 4. **Exploiting Entity BIO Tag Embeddings and Multi-task Learning for Relation Extraction with Imbalanced Data**
    _Wei Ye1*, Bo Li*, Rui Xie, Zhonghao Sheng, Long Chen and Shikun Zhang1_ ACL2019 [paper](https://arxiv.org/pdf/1906.08931.pdf)
 
-   | NRC | imbalance | trick |
+   | NRC | imbalance | trick | ranking loss |
 
    > This paper detailed analyze the impact of imbalanced data (other relation) to the final performance. Incorporating BIO tagging to the embedding layer is an important trick!
 
@@ -169,12 +169,19 @@ a new architecture for fine-tuning relation representations in BERT, our models 
 3. **Kernelized Hashcode Representations for Biomedical Relation Extraction**
    _Sahil Garg, Aram Galstyan, Greg Ver Steeg Irina Rish, Guillermo Cecchi, Shuyang Gao_
    AAAI2019
-   [paper](https://arxiv.org/pdf/1711.04044.pdf)
+   [paper](https://arxiv.org/pdf/1711.04044.pdf) [code](https://github.com/sgarg87/HFR) code not released on 07/05/2019
 
-   ||
+   | ML |
+
+   >Here we propose to use random subspaces of KLSH codes for efficiently constructing an explicit representation of NLP structures suitable for general classification methods. Further, we propose an approach for optimizing the KLSH model for classification problems by maximizing an approximation of mutual information between the KLSH codes (feature vectors) and the class labels
 
 
 4. **Cross-relation Cross-bag Attention for Distantly-supervised Relation Extraction**
-   __
-
+   _Yujin Yuan, Liyuan Liu, Siliang Tang, Zhongfei Zhang, Yueting Zhuang, Shiliang Pu, Fei Wu, Xiang Ren_
+   AAAI2019
    [paper](https://arxiv.org/pdf/1812.10604.pdf)
+
+   | DSRE | cross bag |
+
+   > see title
+
