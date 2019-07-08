@@ -6,7 +6,7 @@ This repo covers almost all the papers related to **Neural Relation Extraction**
 
 Use tags to search papers you like.
 
-**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | KBE | RL | cross bag | ... |**
+**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | KBE | RL | cross bag | ML | GAN | false negative | ... |**
 
 DSRE: Distant Supervised Relation Extraction
 
@@ -78,6 +78,16 @@ RL: Reinforcement Learning
     | KBE | DSRE |
 
     > Multi-task learning: DSRE + KBE
+
+6. :star: **GAN Driven Semi-distant Supervision for Relation Extraction**
+   _Pengshuai Li, Xinsong Zhang, Weijia Jia, Hai Zhao_
+   NAACL2019 [paper](https://www.aclweb.org/anthology/N19-1307)
+
+   | GAN | DSRE | false negative |
+   >To alleviate the effect of false negative instances, there are two possible ways. One is improving the accuracy of the automatically labeled dataset, and the other is properly leveraging unlabeled instances which cannot be labeled as positive or negative
+
+   >We assume that if an entity is relevant to another entity,
+    its name is possibly mentioned in the description of the other entity.
 
 ## ACL 2019
 
