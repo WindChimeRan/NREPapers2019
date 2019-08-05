@@ -84,10 +84,18 @@ RL: Reinforcement Learning
    NAACL2019 [paper](https://www.aclweb.org/anthology/N19-1307)
 
    | GAN | DSRE | false negative |
+
    >To alleviate the effect of false negative instances, there are two possible ways. One is improving the accuracy of the automatically labeled dataset, and the other is properly leveraging unlabeled instances which cannot be labeled as positive or negative
 
    >We assume that if an entity is relevant to another entity,
     its name is possibly mentioned in the description of the other entity.
+
+7. **Exploiting Noisy Data in Distant Supervision Relation Classification**
+   _Kaijia Yang, Liang He, Xin-yu Dai, Shujian Huang, Jiajun Chen_
+   NAACL2019 [paper](https://www.aclweb.org/anthology/N19-1325)
+   
+   | DSRE | RL | false positive |
+   > The methodology is suspicious. Not recommended.
 
 ## ACL 2019
 
@@ -153,7 +161,7 @@ a new architecture for fine-tuning relation representations in BERT, our models 
 5. **GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction**
     _Tsu-Jui Fu, Peng-Hsuan Li and Wei-Yun Ma_ ACL2019 [paper](https://tsujuifu.github.io/pubs/acl19_graph-rel.pdf)
 
-    | joint extraction of relations and entities | sota |
+    | joint extraction of relations and entities |
 
     > They use GCN and argue they are the new sota.
 
