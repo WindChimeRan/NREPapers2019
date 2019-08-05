@@ -94,7 +94,7 @@ RL: Reinforcement Learning
    _Kaijia Yang, Liang He, Xin-yu Dai, Shujian Huang, Jiajun Chen_
    NAACL2019 [paper](https://www.aclweb.org/anthology/N19-1325)
    
-   | DSRE | RL | false positive |
+   | DSRE | RL | false negative |
    > The methodology is suspicious. Not recommended.
 
 ## ACL 2019
