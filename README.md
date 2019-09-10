@@ -174,7 +174,13 @@ a new architecture for fine-tuning relation representations in BERT, our models 
     > The proposed dataset contain both supervised and distant supervised data for training. 
     
     >The inputs contain: \[sentence\], entity_canditdate: (sent_id, pos_in_sent, ner_type). The prediction should contain (r, h, t) triplets. And the prediction of evidence is optional.
-    
+7. **Attention Guided Graph Convolutional Networks for Relation Extraction**
+   _Zhijiang Guo*, Yan Zhang* and Wei Lu_
+
+   | GCN | cross sentence re |
+
+   > This paper proposed a dependency based model by leveraging novel GCN. The experiments contains both cross sentence re and sentence re.
+
 ## AAAI 2019
 
 1. **Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification**
