@@ -165,7 +165,16 @@ a new architecture for fine-tuning relation representations in BERT, our models 
 
     > They use GCN and argue they are the new sota.
 
+6. **DocRED: A Large-Scale Document-Level Relation Extraction Dataset**
+   _Yuan Yao, Deming Ye, Peng Li, Xu Han, Yankai Lin, Zhenghao Liu, Zhiyuan Liu, Lixin Huang, Jie Zhou, Maosong Sun_
+   ACL2019 [paper](https://www.aclweb.org/anthology/P19-1074) [code](https://github.com/thunlp/DocRED)
 
+   | document level re | new task |
+
+    > The proposed dataset contain both supervised and distant supervised data for training. 
+    
+    >The inputs contain: \[sentence\], entity_canditdate: (sent_id, pos_in_sent, ner_type). The prediction should contain (r, h, t) triplets. And the prediction of evidence is optional.
+    
 ## AAAI 2019
 
 1. **Hybrid Attention-based Prototypical Networks for Noisy Few-Shot Relation Classification**
