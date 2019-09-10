@@ -165,7 +165,7 @@ a new architecture for fine-tuning relation representations in BERT, our models 
 
     > They use GCN and argue they are the new sota.
 
-6. **DocRED: A Large-Scale Document-Level Relation Extraction Dataset**
+6. :star: **DocRED: A Large-Scale Document-Level Relation Extraction Dataset**
    _Yuan Yao, Deming Ye, Peng Li, Xu Han, Yankai Lin, Zhenghao Liu, Zhiyuan Liu, Lixin Huang, Jie Zhou, Maosong Sun_
    ACL2019 [paper](https://www.aclweb.org/anthology/P19-1074) [code](https://github.com/thunlp/DocRED)
 
@@ -180,6 +180,21 @@ a new architecture for fine-tuning relation representations in BERT, our models 
    | GCN | cross sentence re |
 
    > This paper proposed a dependency based model by leveraging novel GCN. The experiments contains both cross sentence re and sentence re.
+
+8. **Neural Relation Extraction for Knowledge Base Enrichment**
+   _Bayu Distiawan Trisedya, Gerhard Weikum, Jianzhong Qi, Rui Zhang_
+
+   | KB enrichment |
+
+   > This paper map the entities and relation to the ID in KB directly. The method is a end-to-end manner thus getting out of the error propagation problem.
+
+9. **Joint Type Inference on Entities and Relations via Graph Convolutional Networks**
+    _Changzhi Sun, Yeyun Gong, Yuanbin Wu, Ming Gong, Daxin Jiang, Man Lan, Shiliang Sun, Nan Duan_
+
+    | GCN | joint extraction of relations and entities |
+
+    > GCN, ACE05
+
 
 ## AAAI 2019
 
