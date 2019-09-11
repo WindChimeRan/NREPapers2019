@@ -1,12 +1,14 @@
 # Relation Extraction in 2019
 
-This repo covers almost all the papers related to **Neural Relation Extraction** in ACL, EMNLP, COLING, NAACL, AAAI, IJCAI in 2019.
+This repo covers almost all the papers related to **Relation Extraction** in ACL, EMNLP, NAACL, AAAI, IJCAI in 2019. (also contains some papers from arxiv)
+
+[RE in 2018](https://github.com/WindChimeRan/NREPapers2018)
 
 :star: is the recommended papers.
 
 Use tags to search papers you like.
 
-**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | KBE | RL | cross bag | ML | GAN | false negative | ... |**
+**tags: |NRC | DSRE | PGM | Combining Direct Supervision | GNN | new perspective | new dataset | joint extraction of relations and entities | few shot | BERT | path | imbalance | trick | KBE | RL | cross bag | ML | GAN | false negative | BERT | ... |**
 
 DSRE: Distant Supervised Relation Extraction
 
@@ -15,6 +17,17 @@ NRC: Neural Relation Classification
 KBE: Knowledge Base Embedding
 
 RL: Reinforcement Learning
+
+## arxiv
+1. :star: **A Novel Hierarchical Binary Tagging Framework for Joint Extraction of Entities and Relations**
+    _Zhepei Wei. Jianlin Su, Yue Wang, Yuan Tian, Yi Chang_
+   [paper](https://arxiv.org/pdf/1909.03227.pdf)
+   [blog](https://spaces.ac.cn/archives/6671)
+
+    | joint extraction of relations and entities | BERT |
+   > This paper proposes a two-stage tagging scheme for joint extraction of entities and relations. The performance significant beats all of the previous works in NYT and WebNLG.
+
+   > my concern: the first stage, subject detection is more difficult than entity detection, so ...
 
 ## NAACL 2019
 
