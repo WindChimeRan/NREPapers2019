@@ -111,8 +111,19 @@ RL: Reinforcement Learning
    > The methodology is suspicious. Not recommended.
 
 
-8. **Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks**
+8. :star: **Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks**
    _Ningyu Zhang, Shumin Deng, Zhanlin Sun,Guanying Wang, Xi Chen, Wei Zhang, Huajun Chen∗_[paper](https://www.aclweb.org/anthology/N19-1306)
+
+   | long tail | DSRE | GCN |
+
+   > This paper focus on the long tail relation problem in DSRE dataset (NYT). As there only has limited data for long tail relation, this paper leverage the pretrained KG embedding together with GCN for the long tail relations.
+
+   > This paper innovatively use a tree-like relation representation. Eg:
+   /people -> /people/deceased_person ->/people/deceased_person/place_of_death
+
+   > Table 1 is a great design!
+
+   > I recommend this paper is because the long tail relation problem is very important. The method is not recommended.
 
 ## ACL 2019
 
