@@ -110,6 +110,10 @@ RL: Reinforcement Learning
    | DSRE | RL | false negative |
    > The methodology is suspicious. Not recommended.
 
+
+8. **Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks**
+   _Ningyu Zhang, Shumin Deng, Zhanlin Sun,Guanying Wang, Xi Chen, Wei Zhang, Huajun Chen∗_[paper](https://www.aclweb.org/anthology/N19-1306)
+
 ## ACL 2019
 
 1. :star: **Graph Neural Networks with Generated Parameters for Relation**
