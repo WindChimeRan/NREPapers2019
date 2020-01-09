@@ -261,3 +261,13 @@ a new architecture for fine-tuning relation representations in BERT, our models 
 
    > see title
 
+## EMNLP 2019
+
+1. :star: **Self-Attention Enhanced CNNs and Collaborative Curriculum Learning for Distantly Supervised Relation Extraction**
+    _Yuyun Huang, Jinhua Du_
+    EMNLP2019
+    [paper](https://www.aclweb.org/anthology/D19-1037.pdf)
+
+    | Curriculum Learning | DSRE |
+
+    > This paper uses two student network, PCNN-ONE and PCNN-ATT, to collaboratively denoise wrong labels from the DSRE dataset. Curriculum Learning is adopted to train the model. If the two student predict the same, then let them learn the labels while minimizing the discrepancy between them; otherwise, only minimizing their discrepancy to encourage them reach an agreement.
